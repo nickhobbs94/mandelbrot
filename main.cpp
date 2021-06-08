@@ -51,7 +51,7 @@ int main()
     double zoomWidth = 3.5;
     double zoomHeight = 3.5;
 
-    Vector2f windowSize(1000, 1000);
+    Vector2f windowSize(800, 800);
     Vector2f resolution(width,height);
 
     Uint8* pixels = new Uint8[width*height*4];
